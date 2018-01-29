@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name         = "HJGameSDK"
-s.version      = "1.0.3"
+s.version      = "1.0.4"
 s.summary      = "游戏登录SDK添加支持pod添加" #简短的介绍
 s.description  = <<-DESC
                         HJGameSDK游戏登录SDK，添加支持pod
@@ -32,9 +32,9 @@ s.requires_arc = true  #是否使用ARC
 s.source       = { :git => "https://github.com/JJloveLL/HJGameSDK.git", :tag => "#{s.version}" }
 
 #s.source_files = "HJGameSDK" #直接写文件夹名称即可
-s.source_files = "HJGameSDK/**/*.h"  #如果有多级目录, 一定要逐级添加. 
-s.source_files = "HJGameSDK/**/*.a"
-#s.source_files = "HJGameSDK/**/*"
+*s.source_files = "HJGameSDK/**/*.h"  #如果有多级目录, 一定要逐级添加.
+*s.source_files = "HJGameSDK/**/*.a"
+s.source_files = "HJGameSDK/**/*"
 #s.exclude_files = "Classes/Exclude"
 
 # s.public_header_files = "Classes/**/*.h"
