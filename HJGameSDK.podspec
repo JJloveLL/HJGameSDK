@@ -39,12 +39,11 @@ s.source_files  = "HJGameSDK/**/*.{h,m}"  #如果有多级目录, 一定要逐�
 
 #s.resource  = "icon.png"
 s.resources = "HJGameSDK/Resource/*.png"
-
 # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 s.framework  = "SystemConfiguration"
 # s.frameworks = 'UIKit', 'Foundation'    #所需的framework,多个用逗号隔开
-s.module_name = 'HJGameSDK'                 #模块名称
+s.module_name = 'HJGameSDK'               #模块名称
 # s.library   = "iconv"
 # s.libraries = "iconv", "xml2"
 
